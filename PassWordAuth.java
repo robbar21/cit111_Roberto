@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author 14127
+ * @author Roberto Barone
  */
 public class PassWordAuth {
     
