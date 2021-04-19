@@ -1,0 +1,88 @@
+cd C:\Users\14127\OneDrive\Desktop\Java Assignments\javaPractice; "JAVA_HOME=C:\\Program Files\\Java\\jdk-15.0.2" cmd /c "\"C:\\Program Files\\NetBeans-12.0\\netbeans\\java\\maven\\bin\\mvn.cmd\" -Dexec.args=\"-classpath %classpath week8_Methods2.FundamentalProject\" -Dexec.executable=\"C:\\Program Files\\Java\\jdk-15.0.2\\bin\\java.exe\" -Dexec.classpathScope=runtime -Dmaven.ext.class.path=\"C:\\Program Files\\NetBeans-12.0\\netbeans\\java\\maven-nblib\\netbeans-eventspy.jar\" -Dfile.encoding=UTF-8 process-classes org.codehaus.mojo:exec-maven-plugin:1.5.0:exec"
+Scanning for projects...
+
+---------------------< com.mycompany:javaPractice >---------------------
+Building javaPractice 1.0-SNAPSHOT
+--------------------------------[ jar ]---------------------------------
+
+--- maven-resources-plugin:2.6:resources (default-resources) @ javaPractice ---
+Using 'UTF-8' encoding to copy filtered resources.
+skip non existing resourceDirectory C:\Users\14127\OneDrive\Desktop\Java Assignments\javaPractice\src\main\resources
+
+--- maven-compiler-plugin:3.1:compile (default-compile) @ javaPractice ---
+Changes detected - recompiling the module!
+Compiling 39 source files to C:\Users\14127\OneDrive\Desktop\Java Assignments\javaPractice\target\classes
+
+--- exec-maven-plugin:1.5.0:exec (default-cli) @ javaPractice ---
+If you can start out by telling me your name first that would be great!
+Eric Darsow
+Well, Hello Eric, Thank you for taking your time to help us possibly identify the person that robbed the bank.
+We just want to ask you a few questions that could help us in our investigation.
+Were you able to tell if they were male or female?
+If you were could you tell us?
+Male
+Interesting, so you say the suspect was Male
+Do you know roughly how old they were?
+45
+This is great information thank you!
+I'll just write down that the suspect is roughly 45 years old
+Thank you any information is helpful!
+Our next question is, did you get a good look at their eyes?
+1 for Yes and 2 for No.
+1
+That's great!
+I'm going to give you a list of colors.
+Can you tell me what color you saw selecting the number the corresponds with it please?
+1. Brown
+2. Blue
+3. Green
+4. Other
+2
+Glad to know the suspect had blue eyes.
+Roughly how tall was the suspect in feet?
+If you can only tell us in feet that's ok.
+But if you can estimate any inches please tell us.
+8
+Thank you, you are helping this investigation tremendously!
+Let me just put down that the suspect is roughly 8.0 feet.
+Did you get a good look at his hair?
+1 for Yes and 2 for No.
+2
+That's ok you are helping us with the other information!
+Are there any details of the type of body build they have?
+If so give a one word adjective on his physique.
+tall
+Perfect, glad to know that the suspect is tall
+What kind of clothes were they wearing?
+I'm going to give you a list of styles of clothes.
+Can you tell me what style you saw selecting the number that corresponds with it please?
+1. T-shirt
+2. Long Sleeve Shirt
+3. Sweater
+4. Hoodie
+5. Other
+3
+A suspect with a sweater on, that's very helpful!
+Now for some detailed questions.
+If you can't awnser these it's ok!
+Did they have any noticable scars?
+1 for Yes 2 for No please.
+2
+What you have given us should be enough, we just like to try for details.
+Our final question for you then you're free to go
+Did you notice any tattoos?
+1 for Yes and 2 for No.
+1
+If you could start by telling me what the tattoo looked like.
+For example, was it an animal or a symbol or even a pattern?
+tribal
+Next if you can tell me where it is located on the suspects body.
+neck
+Interesting, so the suspect has a tribal located on their neck
+With all this information that you gave us it helped dwindle all the suspects down to 12
+------------------------------------------------------------------------
+BUILD SUCCESS
+------------------------------------------------------------------------
+Total time:  04:50 min
+Finished at: 2021-04-18T23:37:37-04:00
+------------------------------------------------------------------------
