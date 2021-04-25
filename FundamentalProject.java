@@ -14,6 +14,8 @@ import java.util.Scanner;
  */
 public class FundamentalProject {
 
+    public static int suspectAge;
+    
     public static void main(String[] args){
         System.out.println("If you can start out by telling me your name first"
                 + " that would be great!");
@@ -27,7 +29,7 @@ public class FundamentalProject {
                 + " help us in our investigation.");
         
         System.out.println("Were you able to tell if they were male or female?");
-        System.out.println("If you were could you tell us?");
+        System.out.println("If you were, could you tell us?");
         Gender();
         
         System.out.println("Do you know roughly how old they were?");
@@ -64,8 +66,23 @@ public class FundamentalProject {
         Tattoos();
         
         Random rand = new Random();
-        int suspects = rand.nextInt(25);
-        System.out.println("With all this information that you gave us it helped dwindle all the suspects down to "+ suspects);
+        int suspects = rand.nextInt(5);
+        
+        if(suspects == 1){
+            System.out.println("You helped us dwindle our suspects down to Mitch Weeks. ");
+        }
+        if(suspects == 2){
+            System.out.println("You helped us dwindle our suspects down to Travis Flake. ");
+        }
+        if(suspects == 3){
+            System.out.println("You helped us dwindle our suspects down to Jacob DeForset. ");
+        }
+        if(suspects == 4){
+            System.out.println("You helped us dwindle our suspects down to Viktor Hernz. ");
+        }
+        if(suspects == 5){
+            System.out.println("You helped us dwindle our suspects down to "+ suspects + ".");
+        }//close ifs
     }//close main
     
     public static void Gender(){
@@ -80,19 +97,25 @@ public class FundamentalProject {
         
         Scanner keyScanner = new Scanner(System.in);
         
-        int suspectAge = keyScanner.nextInt();
+        int usersuspectAge = keyScanner.nextInt();
         
-        if(suspectAge <= 30){
+        if(usersuspectAge <= 30){
             System.out.println("Thank you this is great information!");
-            System.out.println("So according to you the suspect is roughly " + suspectAge);
+            System.out.println("So according to you the suspect is roughly " + usersuspectAge);
         }
-        if(suspectAge >= 31){
+        if(usersuspectAge >= 31){
             System.out.println("This is great information thank you!");
-            System.out.println("I'll just write down that the suspect is roughly " + suspectAge
+            System.out.println("I'll just write down that the suspect is roughly " + usersuspectAge
             + " years old");
         }
-        
-        return suspectAge;
+        if(usersuspectAge <= 14){
+            System.out.println("We find it a little hard to believe that the suspect is so young");
+        }
+        if(usersuspectAge >= 61){
+            System.out.println("We find it a little hard to believe that the suspect is so old.");
+        }
+     
+        return usersuspectAge;
     }//close Age
     
     public static void EyeColor(){
